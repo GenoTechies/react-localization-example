@@ -28,17 +28,22 @@ function App() {
               <div className={"col"}>
                   <div className={"row"}>
                       <div className={"col text-center"}>
-                          <h2>{t('stay_awhile_and_listen')}</h2>
-                      </div>
-                  </div>
-                  <div className={"row"}>
-                      <div className={"col text-center"}>
                           <h1>{t('hello')}</h1>
                       </div>
                   </div>
                   <div className={"row"}>
                       <div className={"col text-center"}>
+                          <h2>{t('paragraph_1')}</h2>
+                      </div>
+                  </div>
+                  <div className={"row"}>
+                      <div className={"col text-center"}>
                           <h1>{t('sample_para')}</h1>
+                      </div>
+                  </div>
+                  <div className={"row"}>
+                      <div className={"col text-center mx-5 p-5"}>
+                          <h5>{t('to_read')}</h5>
                       </div>
                   </div>
               </div>
