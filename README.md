@@ -5,7 +5,7 @@
 2. [create an app](https://localazy.com/my/create). Select a source language.
 3. select React integration option and install Localazy CLI
 4. Upload your strings
-- Install Localazy CLI.
+- Install Localazy to the project using below command.
 
   `npm install -g @localazy/cli'`
  
@@ -28,9 +28,9 @@
      
    
 - Access Localazy CLI to add languages to the project and see translations.
-- Upload the source strings with `localazy upload` whenever you change them.
+- Upload the source strings by giving `localazy upload` command in terminal whenever you change them.
 
-- Download translated files with `localazy download` before building your app.  
+- Download translated files by giving `localazy download` command in terminal before building your app.  
      
 
 
@@ -66,5 +66,13 @@
       export default i18n;
   }
   
-- use `useTranslation` object in the content to switch between languages. 
+- use `useTranslation` object of i18next package in the content to switch between languages. 
 
+    `const { t } = useTranslation();`
+    
+    `<h1>{t('sample_para')}</h1>`
+    
+    sample_para is the key of the text in language files translated using localazy.
+    
+    Refer App.js file to understand how i18next works.
+    
