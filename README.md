@@ -37,7 +37,7 @@
 ###Install i18n
 `npm install react-i18next i18next --save`
 
-- add `i18n.js` and import ${lang}.json files downloaded from localazy
+- add `i18n.js` to src folder and import ${lang}.json files downloaded from localazy
 
 {
 
