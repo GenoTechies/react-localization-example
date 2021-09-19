@@ -27,7 +27,7 @@
        
      
    
-- Access Localazy CLI to add languages to the project and see translations.
+- Access [Localazy CLI](https://localazy.com/p/data.ekamuthu) to add languages to the project and see translations.
 - Upload the source strings by giving `localazy upload` command in terminal whenever you change them.
 
 - Download translated files by giving `localazy download` command in terminal before building your app.  
