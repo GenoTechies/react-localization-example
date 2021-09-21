@@ -28,6 +28,12 @@
      
    
 - Access [Localazy CLI](https://localazy.com/p/data.ekamuthu) to add languages to the project and see translations.
+    <img
+  src=“ss.png”
+  raw=true
+  alt=“Subject Pronouns”
+  style=“margin-right: 10px;”
+  />
 - Upload the source strings by giving `localazy upload` command in terminal whenever you change them.
 
 - Download translated files by giving `localazy download` command in terminal before building your app.  
